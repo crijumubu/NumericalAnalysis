@@ -1,34 +1,34 @@
-### PARTE 1
+### PART 1
 
 x <- 10
 y <- 25
 z <- sum(x,y)
 cat("x + y = ", z)
 
-### PARTE 2
+### PART 2
 
 i<-c(5,3,1,3,8,10)
 cat(i)
 j<-c(15,13,11,13,18,110)
 cat(j)
 k<-c(i,j)
-cat("Esta es la union de los vectores -> ", k, "\n")
-cat(paste("El vector concatenado es -> "), i, j, "\n")
+cat("This is the union of vectors -> ", k, "\n")
+cat(paste("The concatenated vector is -> "), i, j, "\n")
 
-### PARTE 3
+### PART 3
 
 if (x < y){
-    print("Y es mayor que X")
+    print("Y is greater than X")
 }else if(y < x){
-    print("X es mayor que Y")
+    print("X is lower than Y")
 }else{
-    print("X y Y no son iguales")
+    print("X and Y aren't equals")
 }
 
-### PARTE 4
+### PART 4
 
 for (i in 1:6){
-    cat("Iteracion ", i, "\n")
+    cat("Iteration ", i, "\n")
     ###if (i>=3){
         ###break
     ###}
@@ -36,11 +36,11 @@ for (i in 1:6){
 
 i = 0
 while (i<6){
-    cat(i, " es menor a 6\n")
+    cat(i, " is lower than 6\n")
     i=i+1
 }
 
-### PARTE 5
+### PART 5
 
-cat("Los elementos del vector k son -> ", length(k), "\n")
-cat("El tercero elemento del vector k es -> ", k[3])
+cat("The elements of the vector k are -> ", length(k), "\n")
+cat("The third element of the vector k is -> ", k[3])
