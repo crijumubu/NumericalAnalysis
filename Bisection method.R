@@ -58,3 +58,5 @@ cat("The program have found", contRoots, "roots for the proposed function, these
 for (i in roots){
   cat("->", i,"\n")
 }
+
+### STUDENT: CRISTIAN JULIAN MUNOZ BUENAHORA - 000430876
