@@ -13,8 +13,8 @@ evaluateDerivate <- function(xValue) {
   return (21*xValue**2 + 4*xValue - 3)
 }
 
-percentageRelativeError = 101
-cont = 1 
+percentageRelativeError <- 101
+cont <- 1 
 
 
 while(percentageRelativeError >= presetError && cont <= 25){
