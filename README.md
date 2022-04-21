@@ -1,0 +1,1 @@
+Repositorio desarrollado con el fin de aplicar los conocimientos aprendidos en la asignatura de análisis númerico mediante el desarrollo de los laboratorios propuestos en clase
