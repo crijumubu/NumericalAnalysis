@@ -1,10 +1,11 @@
 ### INITIAL INFORMATION FOR LABORATORY SOLUTION
 
 vectorx <- c(-1,3,8,16,17,22,24)
-#vectorx <- c(-2,-1,0,1,2)
-#vectory <- c(3,0,2,4,4)
 vectory <- c(-5,2,7,9,18,20,22)
+
+
 ### FUNCTION THAT DOES THE ENTIRE REGRESION PROCESS
+
 
 regresion_calculator <- function(n){
   
